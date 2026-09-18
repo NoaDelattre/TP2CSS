@@ -1,5 +1,6 @@
 div{
     background-color: greenyellow;
+    float: left;
 }
 
 #Menu {
@@ -26,10 +27,12 @@ div{
     width: 250px;
     height: 400px;
     background-color: rgb(150, 7, 163);
+    float: left;
 }
 
 #sousMenuB{
     width: 250px;
     height: 400px;
     background-color: rgb(182, 21, 174);
+    float: left;
 }
