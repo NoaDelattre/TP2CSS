@@ -36,3 +36,13 @@ div{
     background-color: rgb(182, 21, 174);
     float: left;
 }
+
+#blocNews{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    float: right;
+    position: relative; 
+    top: 10px;
+    left: -10px;
+}
