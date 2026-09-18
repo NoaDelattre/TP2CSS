@@ -1,17 +1,35 @@
+div{
+    background-color: greenyellow;
+}
+
 #Menu {
     background-color: red;
-    height: 200px;
     width: 100%;
+    height: 200px;
 }
 
 #Corps {
     width: 100%;
-    height: 500px;
-    background-color: green;
 }
 
 #Footer {
     width: 100%; /*Largeur de la div parent Footer*/
-    height: 150px;
     background-color: blue; 
+    height: 150px;
+}
+
+.divLongue{
+    width: 100%
+}
+
+#sousMenuA{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(150, 7, 163);
+}
+
+#sousMenuB{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(182, 21, 174);
 }
