@@ -47,23 +47,26 @@ div{
     left: -10px;
 }
 
+.paragraphe {
+    float: inherit;
+}
+
 /*Exercice 4 - Structuration du texte*/
 
-.texteBleu{
+#texteBleu{
     color: blue;
     font-size: 20px;
     display: flex;
     float: left;
     text-align: center;
-    gap: 10px;
+    padding: 10px;
 }
 
 /*Exercice 5 - Phrases qui se suivent*/
-.texteRouge{
+#texteRouge{
     color: red;
     font-size: 30px;
     display: flex;
     float: left;
     text-align: center;
-    gap: 10px;
 }
