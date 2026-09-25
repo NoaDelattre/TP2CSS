@@ -48,6 +48,8 @@ div{
 }
 
 .paragraphe {
+    margin: 5px;
+    width: 1000px;
     float: inherit;
 }
 
