@@ -3,6 +3,13 @@ div{
     float: left;
 }
 
+p {
+    margin: 5px;
+    float: left;
+    width: auto;
+    position: relative;
+}
+
 #Menu {
     background-color: red;
     width: 100%;
@@ -45,12 +52,6 @@ div{
     position: relative; 
     top: 10px;
     left: -10px;
-}
-
-.paragraphe {
-    margin: 5px;
-    width: 1000px;
-    float: inherit;
 }
 
 /*Exercice 4 - Structuration du texte*/
