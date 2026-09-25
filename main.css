@@ -72,3 +72,14 @@ div{
     float: left;
     text-align: center;
 }
+
+/*Exercice 6 - Tableaux contenant des phrases de couleurs différentes, ainsi que des phrases rouges entre les tableaux*/
+table {
+    border: solid;
+    border-color: black;
+}
+
+tr {
+    border: solid;
+    border-color: black;
+}
