@@ -3,12 +3,12 @@ div{
     float: left;
 }
 
-p {
+/*p {
     margin: 5px;
     float: left;
     width: auto;
     position: relative;
-}
+}*/
 
 #Menu {
     background-color: red;
