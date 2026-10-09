@@ -1,16 +1,9 @@
+div{
+    background-color: greenyellow;
+    float: left;
+}
+
 @media screen and (width >= 768px){
-    div{
-        background-color: greenyellow;
-        float: left;
-    }
-
-    /*p {
-        margin: 5px;
-        float: left;
-        width: auto;
-        position: relative;
-    }*/
-
     #Menu {
         background-color: red;
         width: 100%;
@@ -129,11 +122,6 @@
 
 /*Rend responsive le site : condition si la largeur de l'écran et de l'onglet sont inférieurs à 768px*/
 @media screen and (width < 768px){
-    div{
-        background-color: greenyellow;
-        float: left;
-        width: 400px;
-    }
     #Menu {
         background-color: red;
         width: 100%;
@@ -190,5 +178,53 @@
         display: flex;
         float: left;
         text-align: center;
+    }
+
+    /*Exercice 6 - Tableaux contenant des phrases de couleurs différentes, ainsi que des phrases rouges entre les tableaux*/
+    table {
+        border: solid;
+        border-color: black;
+        float:left;
+    }
+
+    tr {
+        border: solid;
+        border-color: black;
+    }
+
+
+    th {
+        border: inherit;
+        border-color: black;
+        position: relative;
+        text-align: center;
+        display: flex;
+    }
+
+    /*Style des phrases*/
+    .rouge{
+        color: red;
+        font-size: 30px;
+        display: flex;
+        float: left;
+        text-align: center;
+        width: auto;
+    }
+    .bleu{
+        color: blue;
+        font-size: 20px;
+        display: flex;
+        float: left;
+        text-align: center;
+        padding: 10px;
+        width: auto;
+    }
+    .vert {
+        color: green;
+        font-size: 15px;
+        display: flex;
+        float: left;
+        text-align: center;
+        width: auto;
     }
 }
