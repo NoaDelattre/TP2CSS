@@ -78,9 +78,52 @@ div{
 table {
     border: solid;
     border-color: black;
+    float:left;
 }
 
 tr {
     border: solid;
     border-color: black;
 }
+<<<<<<< HEAD
+=======
+
+th {
+    border: solid;
+    border-color: black;
+}
+
+/*Style des phrases*/
+.rouge{
+    color: red;
+    font-size: 30px;
+    display: flex;
+    float: left;
+    text-align: center;
+}
+.bleu{
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.vert {
+    color: green;
+    font-size: 15px;
+    display: flex;
+    float: left;
+    text-align: center;
+}
+
+/*Rend responsive le site : condition si l'écran et la moitié de la largeur font 768px*/
+@media screen and (mid-width: 768px){
+    div{
+        background-color: greenyellow;
+        color: red;
+        float: left;
+        width: 100px;
+    }
+}
+>>>>>>> b6e45c8 (test pour rendre le site responsive)
