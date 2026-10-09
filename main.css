@@ -1,127 +1,194 @@
-div{
-    background-color: greenyellow;
-    float: left;
-}
-
-/*p {
-    margin: 5px;
-    float: left;
-    width: auto;
-    position: relative;
-}*/
-
-#Menu {
-    background-color: red;
-    width: 100%;
-    height: 200px;
-}
-
-#Corps {
-    width: 100%;
-}
-
-#Footer {
-    width: 100%; /*Largeur de la div parent Footer*/
-    background-color: blue; 
-    height: 150px;
-}
-
-.divLongue{
-    width: 100%
-}
-
-#sousMenuA{
-    width: 250px;
-    height: 400px;
-    background-color: rgb(150, 7, 163);
-    float: left;
-}
-
-#sousMenuB{
-    width: 250px;
-    height: 400px;
-    background-color: rgb(182, 21, 174);
-    float: left;
-}
-
-#blocNews{
-    width: 200px;
-    height: 200px;
-    background-color: orange;
-    float: right;
-    position: relative; 
-    top: 10px;
-    left: -10px;
-}
-
-/*Exercice 4 - Structuration du texte*/
-
-#texteBleu{
-    color: blue;
-    font-size: 20px;
-    display: flex;
-    float: left;
-    text-align: center;
-    padding: 10px;
-}
-
-/*Exercice 5 - Phrases qui se suivent*/
-#texteRouge{
-    color: red;
-    font-size: 30px;
-    display: flex;
-    float: left;
-    text-align: center;
-}
-
-/*Exercice 6 - Tableaux contenant des phrases de couleurs différentes, ainsi que des phrases rouges entre les tableaux*/
-table {
-    border: solid;
-    border-color: black;
-    float:left;
-}
-
-tr {
-    border: solid;
-    border-color: black;
-}
-
-
-th {
-    border: solid;
-    border-color: black;
-}
-
-/*Style des phrases*/
-.rouge{
-    color: red;
-    font-size: 30px;
-    display: flex;
-    float: left;
-    text-align: center;
-}
-.bleu{
-    color: blue;
-    font-size: 20px;
-    display: flex;
-    float: left;
-    text-align: center;
-    padding: 10px;
-}
-.vert {
-    color: green;
-    font-size: 15px;
-    display: flex;
-    float: left;
-    text-align: center;
-}
-
-/*Rend responsive le site : condition si l'écran et la moitié de la largeur font 768px*/
-@media screen and (mid-width: 768px){
+@media screen and (width >= 768px){
     div{
         background-color: greenyellow;
-        color: red;
         float: left;
-        width: 500px;
+    }
+
+    /*p {
+        margin: 5px;
+        float: left;
+        width: auto;
+        position: relative;
+    }*/
+
+    #Menu {
+        background-color: red;
+        width: 100%;
+        height: 200px;
+    }
+
+    #Corps {
+        width: 100%;
+    }
+
+    #Footer {
+        width: 100%; /*Largeur de la div parent Footer*/
+        background-color: blue; 
+        height: 150px;
+    }
+
+    .divLongue{
+        width: 100%
+    }
+
+    #sousMenuA{
+        width: 250px;
+        height: 400px;
+        background-color: rgb(150, 7, 163);
+        float: left;
+    }
+
+    #sousMenuB{
+        width: 250px;
+        height: 400px;
+        background-color: rgb(182, 21, 174);
+        float: left;
+    }
+
+    #blocNews{
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        float: right;
+        position: relative; 
+        top: 10px;
+        left: -10px;
+    }
+
+    /*Exercice 4 - Structuration du texte*/
+
+    #texteBleu{
+        color: blue;
+        font-size: 20px;
+        display: flex;
+        float: left;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*Exercice 5 - Phrases qui se suivent*/
+    #texteRouge{
+        color: red;
+        font-size: 30px;
+        display: flex;
+        float: left;
+        text-align: center;
+    }
+
+    /*Exercice 6 - Tableaux contenant des phrases de couleurs différentes, ainsi que des phrases rouges entre les tableaux*/
+    table {
+        border: solid;
+        border-color: black;
+        float:left;
+    }
+
+    tr {
+        border: solid;
+        border-color: black;
+    }
+
+
+    th {
+        border: inherit;
+        border-color: black;
+        position: relative;
+        text-align: center;
+        display: flex;
+    }
+
+    /*Style des phrases*/
+    .rouge{
+        color: red;
+        font-size: 30px;
+        display: flex;
+        float: left;
+        text-align: center;
+        width: auto;
+    }
+    .bleu{
+        color: blue;
+        font-size: 20px;
+        display: flex;
+        float: left;
+        text-align: center;
+        padding: 10px;
+        width: auto;
+    }
+    .vert {
+        color: green;
+        font-size: 15px;
+        display: flex;
+        float: left;
+        text-align: center;
+        width: auto;
+    }
+}
+
+
+
+
+/*Rend responsive le site : condition si la largeur de l'écran et de l'onglet sont inférieurs à 768px*/
+@media screen and (width < 768px){
+    div{
+        background-color: greenyellow;
+        float: left;
+        width: 400px;
+    }
+    #Menu {
+        background-color: red;
+        width: 100%;
+        height: 200px;
+    }
+
+    #Corps {
+        width: 100%;
+    }
+
+    #Footer {
+        width: 100%; /*Largeur de la div parent Footer*/
+        background-color: blue; 
+        height: 150px;
+    }
+
+    .divLongue{
+        width: 100%
+    }
+    #sousMenuA{
+        width: 225px;
+        height: 1000px;
+        background-color: rgb(150, 7, 163);
+        float: left;
+    }
+
+    #sousMenuB{
+        width: 225px;
+        height: 1000px;
+        background-color: rgb(182, 21, 174);
+        float: left;
+    }
+    #blocNews{
+        width: 180px;
+        height: 180px;
+        background-color: orange;
+        float: right;
+        position: relative; 
+        top: 10px;
+        left: -10px;
+    }
+    #texteBleu{
+        color: blue;
+        font-size: 20px;
+        display: flex;
+        float: left;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #texteRouge{
+        color: red;
+        font-size: 30px;
+        display: flex;
+        float: left;
+        text-align: center;
     }
 }
