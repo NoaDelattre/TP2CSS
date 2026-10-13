@@ -70,19 +70,18 @@ div{
 
     /*Exercice 6 - Tableaux contenant des phrases de couleurs différentes, ainsi que des phrases rouges entre les tableaux*/
     table {
-        border: solid;
-        border-color: black;
         float:left;
     }
 
     tr {
-        border: solid;
-        border-color: black;
+        /*border: solid;
+        border-color: black;*/
+        float:left;
     }
 
 
     th {
-        border: inherit;
+        border: solid;
         border-color: black;
         position: relative;
         text-align: center;
@@ -104,7 +103,7 @@ div{
         display: flex;
         float: left;
         text-align: center;
-        padding: 10px;
+        padding: 12px;
         width: auto;
     }
     .vert {
@@ -113,7 +112,49 @@ div{
         display: flex;
         float: left;
         text-align: center;
+        padding: 15px;
         width: auto;
+    }
+    .tableau {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    .phrase {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+
+    #tableau1 {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    #phrase1 {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    #tableau2 {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    #phrase2 {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    #tableau3 {
+        width: 100%;
+        display: flex;
+        float: left;
+    }
+    #phrase3 {
+        width: 100%;
+        display: flex;
+        float: left;
     }
 }
 
@@ -227,4 +268,5 @@ div{
         text-align: center;
         width: auto;
     }
+
 }
